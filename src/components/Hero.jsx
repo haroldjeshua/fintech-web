@@ -1,5 +1,6 @@
 import styles from "../styles";
 import { discount, robot } from "../assets";
+import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -17,6 +18,26 @@ const Hero = () => {
             <span className="text-white">1 Month</span> Account
           </p>
         </div>
+
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-main font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+            The Next <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Generation</span>{" "}
+          </h1>
+          <div className={`ss:hidden ${styles.flexCenter}`}>
+            <GetStarted />
+          </div>
+        </div>
+
+        <h1 className="font-main font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
+          Payment Method.
+        </h1>
+
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Our team of experts uses a methodology to identify the credit cards
+          most likely to fit your needs. We examine annual percentage rates,
+          annual fees.
+        </p>
       </div>
     </section>
   );
