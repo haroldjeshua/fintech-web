@@ -1,18 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", ".src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
       colors: {
-        primary: "#000040f",
+        primary: "#00040f",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)"
+        dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        main:["Inter", "sans-serif"],
-      }
+        main: ["Inter", "sans-serif"],
+      },
     },
   },
   screens: {
@@ -21,7 +21,7 @@ module.exports = {
     sm: "768px",
     md: "1060px",
     lg: "1200px",
-    xl: "1700px"
+    xl: "1700px",
   },
   plugins: [],
-}
+};
