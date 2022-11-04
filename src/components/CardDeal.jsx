@@ -10,8 +10,8 @@ const CardDeal = () => {
           Find a better card deal <br /> in few easy steps.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-          temporibus.
+          Card dealership has been made easier and you can now scan and select
+          your desired payment method with analysing all your saved records.
         </p>
 
         <Button styles="mt-10" />
